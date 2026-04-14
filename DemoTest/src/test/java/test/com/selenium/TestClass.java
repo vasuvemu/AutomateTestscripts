@@ -15,7 +15,7 @@ public class TestClass {
     @Test
     public void testExample() 
     {
-    	 WebDriverManager.edgedriver().setup();
+    	 WebDriverManager.chromedriver.setup();
     	 
         driver.get("https://example.com");
         // Intentionally fail the test
