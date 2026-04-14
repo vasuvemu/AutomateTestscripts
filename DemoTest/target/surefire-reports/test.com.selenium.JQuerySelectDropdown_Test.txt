@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: test.com.selenium.JQuerySelectDropdown_Test
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.666 sec <<< FAILURE! - in test.com.selenium.JQuerySelectDropdown_Test
+testSingleDropdownSelection(test.com.selenium.JQuerySelectDropdown_Test)  Time elapsed: 0.538 sec  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d38d95a64c0837be2e97bac9c22acef, findChildElements {using=xpath, value=.//option[@value = "India"], id=f.9F04C921EF216A2FCFCB3BD183C1776D.d.EFFFDD52F7A16BEE802BD7C60ED28B0E.e.868}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54109}, goog:processID: 484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54109/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d38d95a64c0837be2e97bac9c22acef
+	at test.com.selenium.JQuerySelectDropdown_Test.testSingleDropdownSelection(JQuerySelectDropdown_Test.java:43)
+
